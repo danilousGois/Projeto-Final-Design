@@ -7,9 +7,12 @@ Elaboração de interface de um sistema completo
 - Maria Isabel;
 - Theo Davi.
 
-## Estrutura do projeto
-- 21.12 - criação da estrutura básica
-- 28.12 - montagem de interfaces 1/4
-- 29.12 - montagem de interfaces 2/4
-- 04.01 - montagem de interface 3/4
-- 05.01 - montagem de interfaces 4/4
+## Tarefas (21/12/2023)
+- [ ] Montagem de página de login (Todos)
+- [x] Criação do repositório (Danilo)
+- [x] Envio de convites aos colaboradores (Danilo)
+
+## Tarefas (28/12/2023)
+## Tarefas (29/12/2023)
+## Tarefas (04/01/2024)
+## Tarefas (05/01/2024)
