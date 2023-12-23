@@ -1,0 +1,21 @@
+.position-absolute {
+    position: absolute;
+    top: 345px;
+    left: 416px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+#bg-image {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    height: 710px;
+    padding-top: 55px;
+}
+
+#forms {
+    height: 710px;
+
+}
