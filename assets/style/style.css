@@ -1,0 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.linha-azul{
+    width: 168px;
+    height: 4px;
+    border-radius: 100px;
+    background: #307FE2;
+}
