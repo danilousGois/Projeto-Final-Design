@@ -1,7 +1,14 @@
+body {
+
+}
+
 .position-absolute {
     position: absolute;
-    top: 345px;
-    left: 416px;
+}
+
+.form-show-password-icon {
+    top: 45.5%;
+    left: 90%;
 }
 
 .position-relative {
@@ -17,5 +24,18 @@
 
 #forms {
     height: 710px;
+}
 
+#form-title {
+    border-bottom: #FCDDEC 1px solid;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+#form-paragraph {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
 }
