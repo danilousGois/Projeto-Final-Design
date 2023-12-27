@@ -17,5 +17,8 @@
 
 #forms {
     height: 710px;
+}
 
+body {
+    font-family: 'Poppins', sans-serif;
 }
