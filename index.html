@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-<body>
-  <main class="container">
-    <div class="row">
-      <section class="col-4" style="background-image: url(assets/img/background.png); background-repeat: no-repeat;">
+<body class="h-100">
+  <main class="container h-100">
+    <div class="row h-100">
+      <section class="col-5" style="background-image: url(assets/img/background.png); background-repeat: no-repeat; background-size: cover;">
         <div class="row">
           <div class="d-flex justify-content-center" style="margin-top: 56px; margin-bottom: 170px;">
             <figure>
@@ -25,7 +25,7 @@
         <div class="row d-flex align-items-center">
           <div class="col">
             <p style="color: #307FE2; font-size: 32px; margin-bottom: 22px; font-family: 'Poppins'; font-weight: 600;">Alterar Senha</p>
-            <div class="linha-azul"></div>
+            <div class="linha-azul" style="margin-bottom: 8px;"></div>
             <p style="color: #333; font-size: 14px;">Alteração de senha através do e-mail.</p>
           </div>
           <div class="col d-flex justify-content-end">
@@ -33,6 +33,12 @@
           </div>
         </div>
       </section>
+      <section class="col-4 offset-md-1 d-flex justify-content-center align-items-center">
+        <div>
+          <h2 style="color: #1D1D1D; font-size: 22px; font-weight: 700; border-bottom: 1px solid #FCDDEC; padding-bottom: 16px;">Link enviado!</h2>
+          <p style="color: #333; font-size: 14px; line-height: 150%;">Enviamos um link no seu e-mail cadastrado para você redefinir a sua senha e acessar a sua conta.</p>
+          <a href="#" style="color: #307FE2; font-size: 12px;">Voltar ao login</a>
+        </div>
     </div>
   </main>
 </body>
