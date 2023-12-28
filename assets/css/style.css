@@ -1,14 +1,9 @@
 body {
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .position-absolute {
     position: absolute;
-}
-
-.form-show-password-icon {
-    top: 45.5%;
-    left: 90%;
 }
 
 .position-relative {
@@ -22,8 +17,33 @@ body {
     padding-top: 55px;
 }
 
+.line-bottom-title {
+    width: 168px;
+    height: 4px; 
+    background-color: #307FE2;
+    border-radius: 100px;
+}
+
+.main-title-login {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600; 
+}
+
+.main-text-login {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
 #forms {
     height: 710px;
+}
+
+.form-show-password-icon {
+    top: 42px;
+    right: 24px;
 }
 
 #form-title {
