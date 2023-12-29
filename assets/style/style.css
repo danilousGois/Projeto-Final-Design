@@ -1,9 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.linha-azul{
-    width: 168px;
-    height: 4px;
-    border-radius: 100px;
-    background: #307FE2;
+#menu{
+    font-family: 'Poppins', sans-serif;
+}
+#menu_bar{
+    margin-bottom: 32px;
+}
+.divisor-cinza{
+    height: 1px;
+    width: 198px;
+    background-color: #F2F2F2;
 }
