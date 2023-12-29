@@ -1,7 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .position-absolute {
     position: absolute;
-    top: 345px;
-    left: 416px;
 }
 
 .position-relative {
@@ -15,10 +17,31 @@
     padding-top: 55px;
 }
 
+.line-bottom-title {
+    width: 168px;
+    height: 4px; 
+    background-color: #307FE2;
+    border-radius: 100px;
+}
+
+.main-title-login {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600; 
+}
+
+.main-text-login {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+}
+
 #forms {
     height: 710px;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
+.form-show-password-icon {
+    top: 42px;
+    right: 24px;
 }
