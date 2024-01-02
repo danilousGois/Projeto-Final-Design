@@ -1,47 +1,249 @@
-body {
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
-.position-absolute {
-    position: absolute;
+.menu-aside-div {
+    padding: 8px;
+}
+
+.aside-menu-typography {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.logo-awe {
+    padding: 5.5px;
+}
+
+.row-gap-20px {
+    row-gap: 20px;
+}
+
+.line-separator {
+    width: 197.001px;
+    height: 1px; 
+    background-color: #F2F2F2;
+}
+
+.menu-hamburguer {
+    width: 22.857px;
+    height: 17.143px; 
+}
+
+.red-text {
+    color: #FF161F; 
+}
+
+.top-icons-aside-menu {
+    margin-bottom: 32px;
+}
+
+.border-bottom-div {
+    width: 1152px; 
+    border-bottom: 1px solid #DDD; 
+    row-gap: 16px;
+}
+
+.user-image {
+    width: 32px;
+    height: 32px;
+}
+
+.name-athlete-profile {
+    color: #333;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 115px;
+}
+
+.aside {
+    height: 900px;
+    border-right: 1px solid #BDBDBD;}
+
+.user-job {
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile-text-one {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400; 
+    color: #555555;
+}
+
+.profile-text-two {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600; 
+    margin: 0px 0px 8px 0px;
+    color: #333;
+}
+
+.row-gap-43px {
+    row-gap: 43px;
 }
 
 .position-relative {
     position: relative;
 }
 
-#bg-image {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    height: 710px;
-    padding-top: 55px;
+.position-absolute {
+    position: absolute;
 }
 
-.line-bottom-title {
-    width: 168px;
-    height: 4px; 
-    background-color: #307FE2;
-    border-radius: 100px;
+.card {
+    width: 172px;
+    padding: 16px 8px; 
 }
 
-.main-title-login {
-    font-size: 32px;
+.image-card {
+    width: 100px;
+    height: 100px;
+    background: url(../img/foto-atleta.png);
+    filter: grayscale(70%);
+    background-size: cover;
+    border-radius: 50%;
+    padding: 16px 8px;
+}
+
+.row-gap-16px {
+    row-gap: 16px;
+}
+
+.div-change-photo {
+    top: 54px;
+}
+
+.change-photo-text {
+    font-family: Open Sans;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600; 
+    color: #fff;
 }
 
-.main-text-login {
+.text-card {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600; 
+    color: #333333;
+    align-self: center;
+    padding-left: 16px;
+}
+
+.column-gap-8px {
+    column-gap: 8px;
+}
+
+.action-buttom {
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.blue-bg-buttom {
+    background-color: #0095D9;
+    margin-top: 19px;
+}
+
+.action-buttom-image {
+    width: 24px;
+    height: 24px;
+}
+
+.action-buttom-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700; 
+    padding-top: 2px;
+    color: white;
+}
+
+.change-password-text {
+    color: #0095D9;
+}
+
+.delete-acount-text {
+    color: #FF161F;
+}
+
+.form-label {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600; 
+    color: #333;
+}
+
+.form-control {
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400; 
 }
 
-#forms {
-    height: 710px;
+.gray-bg-input {
+    background-color: #E0E0E0;
+    color: #828282;
 }
 
-.form-show-password-icon {
-    top: 42px;
-    right: 24px;
+.white-bg-input {
+    color: #000;
+    background-color: white;
+}
+
+.p-12-16 {
+    padding: 12px 16px;
+}
+
+.p-11-16 {
+    padding: 11px 16px;
+}
+
+.w-231 {
+    width: 321px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-226 {
+    width: 226px;
+}
+
+.right-side {
+    padding: 16px 24px 24px 24px;
+    border: solid 1px #E0E0E0;
+    border-radius: 8px;
+    width: 650px;
+}
+
+.left-spacing {
+    margin-left: 214px;
+}
+
+.calendar-icon-input {
+    top: 58%;
+    left: 27%;
+}
+
+.blue-arrow-input {
+    top: 63.6%;
+    left: 28.7%;
 }

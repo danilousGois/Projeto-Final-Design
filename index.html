@@ -1,58 +1,123 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Trabalho Final Design</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela 7 - Perfil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="container d-flex justify-content-between">
-      <main class="container">
-        <div class="col-8" id="bg-image">
-          <div class="d-flex justify-content-center my-5">
-          <figure>
-            <img src="assets/img/Logo.svg" alt="">
-          </figure>
-          </div> 
-          <div class="row d-flex align-items-center">
-            <div class="col col-8">
-              <p class="text-primary fw-bold  fs-1 main-title-login">Faça login</p>
-              <div class="line-bottom-title mb-3"></div>
-              <p class="fw-medium main-text-login">Para acessar o seu painel</p>
+    <section class="d-flex flex-row column-gap-4">
+        <aside class="aside d-flex flex-column col-2 justify-content-between ps-4 pe-4 pt-5 pb-5">
+            <div class="d-flex flex-column row-gap-20px">
+                <div class="d-flex flex-row col col-12 justify-content-between align-items-center top-icons-aside-menu">
+                    <img class="logo-awe" src="assets/img/logo-awe.svg" alt="">
+                    <img class="menu-hamburguer" src="assets/img/menu_icon.svg" alt="">
+                </div>
+                <div class="d-flex col col-1 align-items-start column-gap-2 menu-aside-div">
+                    <img src="assets/img/casa.svg" alt="">
+                    <p class="aside-menu-typography">Dashboard</p>
+                </div>
+                <div class="d-flex col col-1 align-items-start column-gap-2 menu-aside-div">
+                    <img src="assets/img/estrela.svg" alt="">
+                    <p class="aside-menu-typography">Modalidades</p>
+                </div>
+                <div class="line-separator"></div>
+                <div class="d-flex col col-1 align-items-start column-gap-2 menu-aside-div">
+                    <img src="assets/img/sair.svg" alt="">
+                    <p class="red-text aside-menu-typography">Sair</p>
+                </div>
             </div>
-            <div class="col d-flex justify-content-end">
-              <figure><img src="assets/img/Seta.svg" alt=""></figure>
+            <div class="profile d-flex justify-content-between align-items-center col-3 column-gap-2">
+                <img class="user-image" src="assets/img/user_icon.svg" alt="">
+                <div class="d-flex flex-column justify-content-center col-12">
+                    <p class="name-athlete-profile m-0 p-0">Jr Programador</p>
+                    <p class="user-job m-0 p-0">Atleta</p>
+                </div>
             </div>
-          </div>
-        </div>
-      </main>
-      <form class="d-flex flex-column col-5 row-gap-4 position-relative justify-content-center" id="forms">
-          <div class="">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control ps-1 text-secondary" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o seu E-mail">  
-          </div>
-          <div class="position-relative"> 
-            <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input type="password" class="form-control ps-1 text-secondary" id="exampleInputPassword1" placeholder="Digite sua senha">
-            <img class="position-absolute form-show-password-icon" src="assets/img/Ocultar.svg" alt="">
-          </div>
-          <button type="submit" class="btn btn-primary fw-bold">Entrar</button>
-          <div class="d-flex justify-content-between">
-            <p>Não tem uma conta? <a href="#">Cadastrar-se</a></p>
-            <a href="#">Esqueci minha senha</a>
-          </div>
-      </form>
-    </div>
-  </section>
+        </aside>
+
+        <main class="left-spacing">
+            <section class="d-flex flex-column row-gap-43px container pt-5">
+                <div class="border-bottom-div d-flex flex-column">
+                    <p class="profile-text-one m-0 p-0">Perfil</p>
+                    <p class="profile-text-two p-0">Edição de perfil</p>
+                </div>
+                <div class="bottom-content d-flex flex-row column-gap-4 ">
+                    <div class="left-side d-flex flex-column">
+                        <div class="card d-flex flex-column row-gap-16px align-items-center">
+                            <div class="image-card position-relative"></div>
+                            <div class="div-change-photo position-absolute d-flex flex-column align-items-center">
+                                <img src="assets/img/icone-editar.svg" alt="">
+                                <p class="change-photo-text">Trocar foto</p>
+                            </div>
+                            <div class="div-text-card d-flex flex-column align-items-center">
+                                <p class="text-card mb-0">Jr Programador da Silva</p>
+                            </div>
+                        </div>
+                        <div class="row-gap-8px">
+                            <div class="action-buttom d-flex justify-content-center align-items-start blue-bg-buttom column-gap-8px">
+                                <img src="assets/img/icone-editar.svg" alt="" class="action-buttom-image">
+                                <p class="action-buttom-text m-0">Editar perfil</p>
+                            </div>
+                            <div class="action-buttom d-flex justify-content-center align-items-center column-gap-8px">
+                                <img src="assets/img/trancado.svg" alt="" class="action-buttom-image">
+                                <p class="action-buttom-text change-password-text m-0">Alterar senha</p>
+                            </div>
+                            <div class="action-buttom d-flex justify-content-center align-items-center column-gap-8px">
+                                <img src="assets/img/lixeira.svg" alt="" class="action-buttom-image">
+                                <p class="action-buttom-text delete-acount-text m-0">Excluir conta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side d-flex flex-column">
+                        <form action="" class="d-flex flex-column row-gap-4">
+                            <div class="d-flex column-gap-4">
+                                <div class="">
+                                    <label for="cpf-field" class="form-label">CPF</label>
+                                    <input type="text" class="form-control p-12-16 gray-bg-input w-200" id="cpf-field" placeholder="###.###.###-##">
+                                </div>
+                                <div class="">
+                                    <label for="email-field" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control p-12-16 gray-bg-input w-231" id="email-field" placeholder="jrprogramador@gmail.com">
+                                </div>
+                            </div>
+                            <div>
+                                <label for="name-field" class="form-label">Nome</label>
+                                <input type="text" class="form-control p-12-16 white-bg-input w-231" id="name-field" placeholder="Jr Programador da Silva">
+                            </div>
+                            <div class="position-relative">
+                                <label for="date-field" class="form-label">Nascimento</label>
+                                <input type="date" class="form-control p-11-16 white-bg-input w-200" id="date-field" placeholder="11/09/2003">
+                                <img class="calendar-icon-input position-absolute" src="assets/img/calendario.svg" alt="">
+                            </div>
+                            <div class="position-relative">
+                                <label for="gender-field" class="form-label">Gênero</label>
+                                <select name="gender-field" id="gender-field" class="form-select form-control p-11-16 white-bg-input w-200" aria-placeholder="Gênero">
+                                    <option value="masculino">Masculino</option>
+                                    <option value="feminino">Feminino</option>
+                                </select>
+                                <img class="blue-arrow-input position-absolute" src="assets/img/setinha-baixo.svg" alt="">
+                            </div>
+                            <div>
+                                <label for="uf-field" class="form-label">UF</label>
+                                <input type="text" class="form-control p-12-16 gray-bg-input w-226" id="uf-field" placeholder="Unidade  Federativa do Atleta">
+                            </div>
+                            <div>
+                                <label for="city-field" class="form-label">Cidade</label>
+                                <input type="text" class="form-control p-12-16 white-bg-input w-231" id="city-field" placeholder="Natal">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
 </body>
 </html>
