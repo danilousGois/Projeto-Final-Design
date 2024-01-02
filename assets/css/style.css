@@ -112,7 +112,7 @@ body{
 .image-card {
     width: 100px;
     height: 100px;
-    background: url(../img/foto-atleta.png);
+    background: url(assets/img/foto-atleta.png);
     filter: grayscale(70%);
     background-size: cover;
     border-radius: 50%;
@@ -244,6 +244,6 @@ body{
 }
 
 .blue-arrow-input {
-    top: 63.6%;
-    left: 28.7%;
+    top: 63%;
+    left: 28.5%;
 }
