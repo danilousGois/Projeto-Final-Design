@@ -7,12 +7,26 @@ Elaboração de interface de um sistema completo
 - Maria Isabel;
 - Theo Davi.
 
-## Tarefas (21/12/2023)
-- [ ] Montagem de página de login (Todos)
+## Tarefas (21/12/2023) 
+- [x] Montagem de página de login (Todos)
 - [x] Criação do repositório (Danilo)
 - [x] Envio de convites aos colaboradores (Danilo)
 
 ## Tarefas (28/12/2023)
-## Tarefas (29/12/2023)
+- [x] Montagem da tela 2 (Mabel)
+- [x] Montagem da tela 3 (Theo)
+- [x] Montagem da tela 4 (Danilo)
+- [x] Montagem da tela 5 (David)
+      
+## Tarefas (29/12/2023) 
+- [x] Montagem da tela 6 (Mabel)
+- [x] Montagem da tela 7 - Alterar Senha (David)
+- [x] Montagem da tela 7 - Perfil (Theo)
+- [x] Montagem da tela 7 - Editar Perfil (Danilo)
+
 ## Tarefas (04/01/2024)
+- [ ] Montagem da tela 8 (Danilo)
+- [ ] Montagem da tela 9 (Mabel)
+- [ ] Montagem da tela 10 (David)
+- [ ] Montagem da tela 11 (Theo)
 ## Tarefas (05/01/2024)
