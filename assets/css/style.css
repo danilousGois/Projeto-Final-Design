@@ -45,3 +45,11 @@ body {
     top: 42px;
     right: 24px;
 }
+
+.bg-purple {
+    background-color: #BB6BD9;
+}
+
+.bg-blue {
+    background-color: #0095D9;
+}

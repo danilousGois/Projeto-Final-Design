@@ -6,25 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela 8 - Perfil</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="h-100 d-flex">
-  <section class="w-100 h-100 d-flex flex-column justify-content-between" style="padding: 32px; max-width: 296px; margin-bottom: 32px; border-right: 1px solid #BDBDBD;" id="menu">
-      <div>
-        <div class="d-flex justify-content-between" id="menu_bar">
-          <a href="">
+  <section class="col-3 h-100 d-flex flex-column justify-content-between" style="padding: 32px; max-width: 296px; margin-bottom: 32px; border-right: 1px solid #BDBDBD;" id="menu">
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-between align-items-center pb-5" id="menu_bar">
+          <a href="#">
             <figure><img src="assets/img/logo_simples.svg" alt=""></figure>
           </a>
           <figure style="cursor: pointer;"><img src="assets/img/menu_icon.svg" alt=""></figure>
         </div>
-        <div class="d-flex flex-column" style="gap: 20px;">
-          <a href="" style="text-decoration: none; color: #333; font-size: 14px; letter-spacing: 0.14px;"><img src="assets/img/casa.svg" alt="" style="padding-right: 8px;">Dashboard</a>
-          <a href="" style="text-decoration: none; color: #333; font-size: 14px; letter-spacing: 0.14px;"><img src="assets/img/estrela.svg" alt="" style="padding-right: 8px;">Modalidades</a>
-          <div class="divisor-cinza"></div>
-          <a href="" style="text-decoration: none; color: #FF161F"><img src="assets/img/sair.svg" alt="" style="padding-right: 8px;">Sair</a>
+        <div class="d-flex flex-column " style="gap: 20px;">
+          <a href="#" class="d-flex align-items-center" style="text-decoration: none; color: #333; font-size: 14px; letter-spacing: 0.14px;"><img src="assets/img/casa.svg" alt="" style="padding-right: 8px;">Dashboard</a>
+          <a href="#" class="border-bottom pb-4 d-flex align-items-center"  style="text-decoration: none; color: #333; font-size: 14px; letter-spacing: 0.14px;"><img src="assets/img/estrela.svg" alt="" style="padding-right: 8px;">Modalidades</a>
+          <a href="#" class="d-flex align-items-center" style="text-decoration: none; color: #FF161F"><img src="assets/img/sair.svg" alt="" style="padding-right: 8px;">Sair</a>
         </div>
       </div>
       <div>
@@ -36,6 +35,35 @@
           </div>
         </div>
       </div>
+  </section>
+  <section class="container col-7 pt-4">
+    <div class="col-4">
+      <h4 class="fw-bold mb-5">Suas inscrições</h4>
+      <div class="container border rounded p-3 d-flex flex-column gap-5 mb-3">
+        <div class="d-flex justify-content-between align-items-center"><h5>Vôlei de Quadra</h5>
+          <small class="bg-success rounded-pill text-light m-0 p-1 px-2 fw-bold">Confirmado</small>
+          <div class="d-flex align-items-center justify-content-center">
+            <img src="assets/img/elipse.svg" alt="" class="position-absolute">
+            <img src="assets/img/volei.svg" alt="" class="position-relative border-5 border border-dark rounded-circle bg-dark">
+          </div>
+        </div>
+        <a href="#" class="text-decoration-none border col-4 py-2 d-flex justify-content-center rounded text-dark fw-medium">Detalhes</a>
+      </div>
+      <div class="container border rounded p-3 d-flex flex-column gap-5">
+        <div class="d-flex justify-content-between align-items-center"><h5>Futebol Society</h5>
+          <small class="bg-purple rounded-pill text-light m-0 p-1 px-2 fw-bold">A pagar</small>
+          <div class="d-flex align-items-center justify-content-center">
+            <img src="assets/img/elipse.svg" alt="" class="position-absolute">
+            <img src="assets/img/soccer.svg" alt="" class="position-relative border-5 border border-dark rounded-circle bg-dark">
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <a href="#" class="text-decoration-none border col-4 py-2 d-flex justify-content-center rounded text-dark fw-medium">Detalhes</a>
+          <a href="#" class="text-decoration-none border col-7 bg-blue text-light py-2 d-flex justify-content-center rounded fw-medium">Efetuar Pagamento</a>
+        </div>
+      </div>
+    </div>
+    
   </section>
 </body>
 </html>
