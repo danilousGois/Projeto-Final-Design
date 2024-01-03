@@ -47,46 +47,48 @@
     </div>
     <div class="row">
       <div class="col-2" style="margin-right: 24px;">
-        <div class="card">
+        <div class="card" style="margin-bottom: 20px; padding: 16px 8px;">
           <div>
-            <img src="assets/img/foto_de_perfil.svg" alt="" style="position: relative;">
-            <div class="">
-              <img src="assets/img/editar.svg" alt="">
-              <p>Trocar foto</p>
-            </div>
+            <figure style="position: relative;">
+              <img src="assets/img/foto_de_perfil.svg" alt="">
+              <div class="d-flex flex-column justify-content-center" style="z-index: 1; position: absolute; bottom: 0;">
+                <figure><img src="assets/img/editar.svg" alt=""></figure>
+                <p style="color: #FFF; font-size: 12px; font-weight: 600; line-height: 20px;">Trocar foto</p>
+              </div>
+            </figure>
           </div>
-          <div class="card-title">Jr Programador da Silva</div>
+          <div class="card-text" style="color: #333; font-size: 14px; font-weight: 600; text-align: center;">Jr Programador da Silva</div>
         </div>
-        <div>
-          <a style="border-radius: 6px; background-color: #0095D9; padding: 8px 16px; text-decoration: none; color: #fff;" href=""><img src="assets/img/editar-perfil.svg" alt="">Editar perfil</a>
-          <a href=""><img src="assets/img/trancado.svg" alt="">Alterar senha</a>
-          <a href=""><img src="assets/img/sair.svg" alt="">Excluir conta</a>
+        <div class="d-flex flex-column" style="gap: 8px;" id="botões-de-editar-conta">
+          <a class="d-flex justify-content-center" style="gap: 8px; border-radius: 6px; background-color: #0095D9; padding: 8px 16px; text-decoration: none; color: #fff; font-size: 14px; font-weight: 700; line-height: 170%;" href=""><img src="assets/img/editar-perfil.svg" alt="">Editar perfil</a>
+          <a class="d-flex justify-content-center" style="gap: 8px; border-radius: 6px; padding: 8px 16px; text-decoration: none; color: #0095D9; font-size: 14px; font-weight: 700; line-height: 170%;" href=""><img src="assets/img/trancado.svg" alt="">Alterar senha</a>
+          <a class="d-flex justify-content-center" style="gap: 8px; border-radius: 6px; padding: 8px 16px; text-decoration: none; color: #FF161F; font-size: 14px; font-weight: 700; line-height: 170%;" href=""><img src="assets/img/excluir.svg" alt="">Excluir conta</a>
         </div>
       </div>
       <div class="col-7 card" style="border-radius: 8px; border: 1px solid #E0E0E0;">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item d-flex">
-            <p>CPF</p>
-            <p>123.456.789-10</p>
+          <li class="list-group-item d-flex align-items-center">
+            <p class="col-3" style="color: #333; font-size: 14px; font-weight: 600;">CPF</p>
+            <p class="col-4">123.456.789-10</p>
           </li>
           <li class="list-group-item d-flex">
-            <p>E-mail</p>
+            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">E-mail</p>
             <p>jrprogramador@gmail.com</p>
           </li>
           <li class="list-group-item d-flex">
-            <p>Nascimento</p>
+            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Nascimento</p>
             <p>11/09/2003</p>
           </li>
           <li class="list-group-item d-flex">
-            <p>Gênero</p>
+            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Gênero</p>
             <p>Masculino</p>
           </li>
           <li class="list-group-item d-flex">
-            <p>UF</p>
+            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">UF</p>
             <p>Rio Grande do Norte (RN)</p>
           </li>
           <li class="list-group-item d-flex">
-            <p>Cidade</p>
+            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Cidade</p>
             <p>Natal</p>
           </li>
         </ul>
