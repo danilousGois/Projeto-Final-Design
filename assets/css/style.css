@@ -1,5 +1,9 @@
-body {
+.poppins {
     font-family: 'Poppins', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .position-absolute {
