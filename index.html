@@ -49,10 +49,10 @@
         </div>
     </section>
 
-    <main class="margin-auto col-10">
+    <main class="margin-auto col-10 ">
         <section class="d-flex flex-column row-gap-43px container pt-5 ">
-            <div class="border-bottom-div d-flex gap-1">
-                <p class="profile-text-one m-0 p-0 text-primary">Modalidades</p>
+            <div class="border-bottom-div d-flex gap-1 ">
+                <p class="profile-text-one m-0 p-0  text-azul">Modalidades</p>
                 <p>></p>
                 <p class="profile-text-two p-0">Cadastro</p>
             </div>
@@ -60,48 +60,49 @@
 
 
             </div>
-            <div class="center-side d-flex flex-column align-items-center col-4 bordr ">
+            <div class="center-side d-flex flex-column align-items-center col-4 border w-50 p-5  rounded mt-5 ">
                 <form action="" class="d-flex flex-column row-gap-4 col-12">
-                    <div class="d-flex column-gap-4">
+                    <div class="d-flex column-gap-4 col-7">
                         <div class="col-12">
-                            <label for="name-field" class="form-label">Nome</label>
-                            <input type="text" class="form-control p-12-16 gray-bg-input w-231" id="senha-field"
+                            <label for="name-field" class="form-label open-sans fw-bold">Nome</label>
+                            <input type="text" class="form-control p-12-16 gray-bg-input w-231 open-sans " id="senha-field"
                                 placeholder="Digite o nome da modalidade">
                         </div>
                     </div>
 
-                    <label for="name-field" class="form-label">Tipo</label>
-                    <div class="mx-3  d-flex flex-column gap-4">
+                    <label for="name-field" class="form-label open-sans fw-bold">Tipo</label>
+                    <div class="mx-3  d-flex flex-column gap-4 col-3">
                         
-                        <div class="form-check">
+                        <div class="form-check ">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1"> Coletiva</label>
+                            <label class="form-check-label open-sans" for="flexRadioDefault1"> Coletiva</label>
                         </div>
     
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
                                 checked>
-                            <label class="form-check-label" for="flexRadioDefault2">Individual</label>
+                            <label class="form-check-label open-sans" for="flexRadioDefault2">Individual</label>
                         </div>
                     </div>
                    
 
-                    <div class="position-relative">
-                        <label for="gender-field" class="form-label">Ícone da modalidade</label>
-                        <select name="gender-field" id="name-field"
-                            class="form-select form-control p-11-16 white-bg-input w-200"
-                            placeholder="Selecione"></select>
-                        <img class="blue-arrow-input position-absolute" src="assets/img/seta-baixo.svg" alt="">
+                    <div class="position-relative col-5">
+                        <p class="open-sans fw-bold">Ícone da modalidade</p>
+                        <div class="border d-flex align-items-center justify-content-between rounded p-1">
+                            <p class="pt-2 open-sans">Selecione</p>
+                            <img src="assets/img/seta-baixo.svg" alt="">
+                        </div>
                     </div>
 
                 </form>
             </div>
-            <div class="border-bottom pt-5 col-7"></div>
-            <button type="submit" class="btn btn-primary fw-bold col-2 border-bottom  mt-5 p-3">Cadastrar</button>
+            <div class="col-10 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary fw-bold col-2 border-bottom justify-content-rigth  mt-5 p-3 botoom-azul">Cadastrar</button>
+            </div>
+           
             </div>
         </section>
     </main>
     </section>
 </body>
-
 </html>
