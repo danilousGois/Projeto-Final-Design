@@ -12,6 +12,9 @@ body{
     width: 198px;
     background-color: #F2F2F2;
 }
-#dados-da-conta p{
+#categorias-da-conta p{
     margin: 0;
+}
+#item-da-lista{
+    padding: 12px 16px;
 }
