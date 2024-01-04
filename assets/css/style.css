@@ -1,47 +1,19 @@
-body {
+body{
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-
-.position-absolute {
-    position: absolute;
+#menu{
+    font-family: 'Poppins', sans-serif;
+}
+#menu_bar{
+    margin-bottom: 32px;
+}
+.divisor-cinza{
+    height: 1px;
+    width: 198px;
+    background-color: #F2F2F2;
 }
 
-.position-relative {
-    position: relative;
-}
-
-#bg-image {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    height: 710px;
-    padding-top: 55px;
-}
-
-.line-bottom-title {
-    width: 168px;
-    height: 4px; 
-    background-color: #307FE2;
-    border-radius: 100px;
-}
-
-.main-title-login {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600; 
-}
-
-.main-text-login {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400; 
-}
-
-#forms {
-    height: 710px;
-}
-
-.form-show-password-icon {
-    top: 42px;
-    right: 24px;
+.text-azul{
+    color: #0095D9;
 }
