@@ -47,17 +47,17 @@
     </div>
     <div class="row">
       <div class="col-2" style="margin-right: 24px;">
-        <div class="card" style="margin-bottom: 20px; padding: 16px 8px;">
+        <div class="card d-flex flex-column align-items-center" style="margin-bottom: 20px; padding: 16px 8px;">
           <div>
-            <figure style="position: relative;">
-              <img src="assets/img/foto_de_perfil.svg" alt="">
-              <div class="d-flex flex-column justify-content-center" style="z-index: 1; position: absolute; bottom: 0;">
-                <figure><img src="assets/img/editar.svg" alt=""></figure>
+            <div style="background-image: url(assets/img/foto_de_perfil.svg); border-radius: 100px; width: 100px; height: 100px; position: relative;">
+              <div style="background-color: rgba(51, 51, 51, 0.30); border-radius: 100px; width: 100%; height: 100%;"></div>
+              <div class="d-flex flex-column align-items-center justify-content-center" style="position: relative; bottom: 64px;">
+                <img src="assets/img/editar.svg" alt="">
                 <p style="color: #FFF; font-size: 12px; font-weight: 600; line-height: 20px;">Trocar foto</p>
               </div>
-            </figure>
+            </div>
           </div>
-          <div class="card-text" style="color: #333; font-size: 14px; font-weight: 600; text-align: center;">Jr Programador da Silva</div>
+          <div class="card-text" style="color: #333; font-size: 14px; font-weight: 600; text-align: center; margin-top: 22px;">Jr Programador da Silva</div>
         </div>
         <div class="d-flex flex-column" style="gap: 8px;" id="botões-de-editar-conta">
           <a class="d-flex justify-content-center" style="gap: 8px; border-radius: 6px; background-color: #0095D9; padding: 8px 16px; text-decoration: none; color: #fff; font-size: 14px; font-weight: 700; line-height: 170%;" href=""><img src="assets/img/editar-perfil.svg" alt="">Editar perfil</a>
@@ -65,31 +65,31 @@
           <a class="d-flex justify-content-center" style="gap: 8px; border-radius: 6px; padding: 8px 16px; text-decoration: none; color: #FF161F; font-size: 14px; font-weight: 700; line-height: 170%;" href=""><img src="assets/img/excluir.svg" alt="">Excluir conta</a>
         </div>
       </div>
-      <div class="col-7 card" style="border-radius: 8px; border: 1px solid #E0E0E0;">
+      <div class="col-7 card" style="border-radius: 8px; border: 1px solid #E0E0E0;" id="dados-da-conta">
         <ul class="list-group list-group-flush">
           <li class="list-group-item d-flex align-items-center">
-            <p class="col-3" style="color: #333; font-size: 14px; font-weight: 600;">CPF</p>
-            <p class="col-4">123.456.789-10</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">CPF</p>
+            <p class="col-8">123.456.789-10</p>
           </li>
           <li class="list-group-item d-flex">
-            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">E-mail</p>
-            <p>jrprogramador@gmail.com</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">E-mail</p>
+            <p class="col-8">jrprogramador@gmail.com</p>
           </li>
           <li class="list-group-item d-flex">
-            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Nascimento</p>
-            <p>11/09/2003</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">Nascimento</p>
+            <p class="col-8">11/09/2003</p>
           </li>
           <li class="list-group-item d-flex">
-            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Gênero</p>
-            <p>Masculino</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">Gênero</p>
+            <p class="col-8">Masculino</p>
           </li>
           <li class="list-group-item d-flex">
-            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">UF</p>
-            <p>Rio Grande do Norte (RN)</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">UF</p>
+            <p class="col-8">Rio Grande do Norte (RN)</p>
           </li>
           <li class="list-group-item d-flex">
-            <p class="col" style="color: #333; font-size: 14px; font-weight: 600;">Cidade</p>
-            <p>Natal</p>
+            <p class="col-6" style="color: #333; font-size: 14px; font-weight: 600;">Cidade</p>
+            <p class="col-8">Natal</p>
           </li>
         </ul>
       </div>

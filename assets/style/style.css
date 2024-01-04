@@ -12,3 +12,6 @@ body{
     width: 198px;
     background-color: #F2F2F2;
 }
+#dados-da-conta p{
+    margin: 0;
+}
