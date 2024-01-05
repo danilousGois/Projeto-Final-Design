@@ -73,3 +73,23 @@
 .bg-grey {
     background-color: #333333;
 }
+
+.bg-orange {
+    background-color: #FFF8F2;
+}
+
+.text-orange {
+    color: #E59146;
+}
+
+.bg-gray {
+    background-color: #767676;
+}
+
+.text-gray {
+    color: #767676;
+}
+
+.bg-bluelight {
+    background-color: #E9F8FF;
+}
