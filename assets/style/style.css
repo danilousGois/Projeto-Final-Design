@@ -15,6 +15,24 @@ body{
 .card p{
     margin: 0;
 }
-#item-da-lista{
+.form-label{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.form-control{
     padding: 12px 16px;
+}
+.form-button{
+    border: none;
+    padding: 8px 16px;
+    background-color: #0095D9;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 170%;
+    width: 164px;
+    border-radius: 6px;
+    margin-top: 30px;
 }
