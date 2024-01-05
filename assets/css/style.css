@@ -3,6 +3,8 @@ body{
 }
 
 .menu-aside-div {
+    width: 201px;
+    height: 40px;
     padding: 8px;
 }
 
@@ -11,7 +13,8 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; 
+    line-height: normal;
+    letter-spacing: 0.14px; 
 }
 
 .logo-awe {
@@ -63,6 +66,7 @@ body{
 }
 
 .aside {
+    width: 297px;
     height: 900px;
     border-right: 1px solid #BDBDBD;}
 
@@ -75,175 +79,233 @@ body{
     line-height: normal;
 }
 
-.profile-text-one {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400; 
-    color: #555555;
+.main-top {
+    border-bottom: solid 1px #BBB;
+    padding-bottom: 8px;
+    padding-left: 10px;
 }
 
-.profile-text-two {
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600; 
-    margin: 0px 0px 8px 0px;
-    color: #333;
+.modalidades-div {
+    border-radius: 8px;
+    background-color: #F5F5F5; 
 }
 
-.row-gap-43px {
-    row-gap: 43px;
-}
-
-.position-relative {
-    position: relative;
-}
-
-.position-absolute {
-    position: absolute;
-}
-
-.card {
-    width: 172px;
-    padding: 16px 8px; 
-}
-
-.image-card {
-    width: 100px;
-    height: 100px;
-    background: url(assets/img/foto-atleta.png);
-    filter: grayscale(70%);
-    background-size: cover;
-    border-radius: 50%;
-    padding: 16px 8px;
-}
-
-.row-gap-16px {
-    row-gap: 16px;
-}
-
-.div-change-photo {
-    top: 54px;
-}
-
-.change-photo-text {
-    font-family: Open Sans;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600; 
-    color: #fff;
-}
-
-.text-card {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600; 
-    color: #333333;
-    align-self: center;
-    padding-left: 16px;
-}
-
-.column-gap-8px {
-    column-gap: 8px;
-}
-
-.action-buttom {
-    padding: 8px 16px;
-    border-radius: 6px;
-    margin-bottom: 8px;
-}
-
-.blue-bg-buttom {
-    background-color: #0095D9;
-    margin-top: 19px;
-}
-
-.action-buttom-image {
-    width: 24px;
-    height: 24px;
-}
-
-.action-buttom-text {
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700; 
-    padding-top: 2px;
-    color: white;
-}
-
-.change-password-text {
+.modalidades-text {
     color: #0095D9;
 }
 
-.delete-acount-text {
-    color: #FF161F;
+.bread-crumb {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    color: #555;
 }
 
-.form-label {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600; 
-    color: #333;
+.blue-link {
+    color: #0095D9;
 }
 
-.form-control {
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
+.gray-text {
+    color: #555;
     font-weight: 400; 
 }
 
-.gray-bg-input {
-    background-color: #E0E0E0;
+.gray-arrow {
+    width: 4px;
+    height: 8px; 
+}
+
+.gerar-relatorio-img {
+    width: 20px;
+    height: 20px; 
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 6px; 
+}
+
+.btn-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.gerar-relatorio-button {
+    width: 180px;
+    border: solid 1px #0095D9;
+}
+
+.gerar-relatorio-button-text {
+    color: #0095D9;
+}
+
+.blue-btn {
+    background-color: #0095D9;
+    color: #fff;
+}
+
+.column-gap-10px {
+    column-gap: 10px;
+}
+
+.main-content-width {
+    width: 1152px; 
+}
+
+.main-title {
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.selection-bar{
+    padding: 16px 30px; 
+    border-radius: 8px 8px 0px 0px;
+    background-color: #F4F4F4; 
+    margin-top: 20px;
+}
+
+.search-field {
+    width: 394px;
+}
+
+.category-field {
+    width: 195px;
+}
+
+.course-field {
+    width: 105px;
+}
+
+.field-select-bar {
+    border-radius: 8px;
+    border: solid 1px #E0E0E0;
+    padding: 2px 8px; 
+    background-color: #fff;
+}
+
+.img-spacing {
+    padding: 8px;
+}
+
+.select-text {
+    padding: 10px 8px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    color: #333;
+}
+
+.gray-text-search-field {
     color: #828282;
 }
 
-.white-bg-input {
-    color: #000;
-    background-color: white;
+.sports-table {
+     border: #E9F8FF solid 1px;
 }
 
-.p-12-16 {
-    padding: 12px 16px;
+.subtitle-table {
+    padding: 16px 30px;
+    border-bottom: 1px solid #BBB;
 }
 
-.p-11-16 {
-    padding: 11px 16px;
+.column-gap-table-20px {
+    column-gap: 20px;
 }
 
-.w-231 {
-    width: 321px;
+.subtitle-table-text {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    color: #333;
 }
 
-.w-200 {
+.modalidade {
+    width: 260px;
+}
+
+.tipo {
+    width: 180px;
+}
+
+.inscritos {
     width: 200px;
 }
 
-.w-226 {
-    width: 226px;
+.sport-line {
+    padding: 8px 30px;
+    border-bottom: 1px solid #EEE; 
 }
 
-.right-side {
-    padding: 16px 24px 24px 24px;
-    border: solid 1px #E0E0E0;
-    border-radius: 8px;
-    width: 650px;
+.icon-sport{
+    top: 25%;
+    left: 18%;
 }
 
-.left-spacing {
-    margin-left: 214px;
+.sport-name {
+    width: 220px;
+    padding: 8px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize; 
+    color: #4F4F4F;
 }
 
-.calendar-icon-input {
-    top: 58%;
-    left: 27%;
+.description {
+    width: 67px;
+    padding: 2px 6px;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    color: #0095D9;
+    border-radius: 100px;
+    background-color: #E9F8FF; 
 }
 
-.blue-arrow-input {
-    top: 63%;
-    left: 28.5%;
+.description-div {
+    width: 170px;
+}
+
+.participant-number {
+    width: 291px;
+    padding: 8px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize; 
+    color: #4F4F4F;
+}
+
+.main-content {
+    margin: 32px 213px 116px 214px;
+}
+
+.text-below-table {
+    text-align: right;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    color: #828282;
+    margin: 16px 0px 0px 0px;
 }
