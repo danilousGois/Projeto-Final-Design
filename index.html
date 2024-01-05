@@ -40,29 +40,41 @@
   <section class="container">
     <div class="row" style="padding-bottom: 8px; border-bottom: 1px solid #DDD; margin-top: 32px; margin-bottom: 32px;">
       <div class="col-3">
-        <div class="d-flex align-items-center" style="padding-left: 10px; padding-right: 10px;">
-          <p style="color: #0095D9; font-size: 12px; font-weight: 600;">Modalidades</p>
-          <figure><img src="assets/img/seta-de-navegacao.svg" alt="" style="padding-left: 8px; padding-right: 8px;"></figure>
-          <p style="color: #0095D9; font-size: 12px; font-weight: 600;">Natação</p>
-          <figure><img src="assets/img/seta-de-navegacao.svg" alt="" style="padding-left: 8px; padding-right: 8px;"></figure>
-          <p style="color: #555; font-size: 12px;">Categorias</p>
-        </div>
+        <nav class="d-flex align-items-center" style="padding-left: 10px; padding-right: 10px;">
+          <a href="" style="color: #0095D9; font-size: 12px; font-weight: 600; text-decoration: none;">Modalidades</a>
+          <img src="assets/img/seta-de-navegacao.svg" alt="" style="padding-left: 8px; padding-right: 8px;">
+          <a href="" style="color: #0095D9; font-size: 12px; font-weight: 600; text-decoration: none;">Natação</a>
+          <img src="assets/img/seta-de-navegacao.svg" alt="" style="padding-left: 8px; padding-right: 8px;">
+          <a href="" style="color: #555; font-size: 12px; text-decoration: none;">Categorias</a>
+        </nav>
         <h2 style="color: #333; font-family: Poppins; font-size: 18px; font-weight: 600; margin: 0; padding: 10px;">Categorias de Modalidade</h2>
       </div>
     </div>
     <div class="row">
       <div class="col-2 card d-flex align-items-center" style="padding: 16px; margin-right: 24px;">
-        <div class="d-flex justify-content-center align-items-center" style="width: 100px; height: 100px; border-radius: 100px; background-color: #333; margin-bottom: 20px; border-bottom: 1px solid #E0E0E0;"><figure><img src="assets/img/maki_swimming.svg" alt=""></figure></div>
+        <div class="d-flex justify-content-center align-items-center" style="width: 100px; height: 100px; border-radius: 100px; background-color: #333;"><figure><img src="assets/img/maki_swimming.svg" alt=""></figure></div>
         <div class="card-body">
-            topo
+          <div class="card-text">
+            <div style="height: 1px; width: 140px; background-color: #E0E0E0; margin-bottom: 20px; margin-top: 20px;"></div>
+            <div class="d-flex flex-column" style="gap: 4px; margin-bottom: 20px;">
+              <p style="color: #333; font-size: 14px; font-weight: 600;">Tipo</p>
+              <p style="color: #0095D9; font-size: 12px; border-radius: 100px; background: #E9F8FF; padding: 2px 6px; width: 68px;">Individual</p>
+            </div>
+            <div class="d-flex flex-column" style="gap: 4px;">
+              <p style="color: #333; font-size: 14px; font-weight: 600;">Inscrições</p>
+              <p style="color: #4F4F4F; font-size: 14px;">0 Atletas</p>
+            </div>
+            <div style="height: 1px; width: 140px; background-color: #E0E0E0; margin-bottom: 20px; margin-top: 20px;"></div>
+            <a href="" class="card-link" style="color: #0095D9; font-size: 14px;">Cadastrar</a>
+          </div>
         </div>
       </div>
-      <div class="col-8 card h-100" style="padding: 0;" id="categorias-da-conta">
-        <div class="col card-header d-flex" id="item-da-lista">
+      <div class="col-8 card" style="padding: 0;">
+        <div class="col card-header d-flex" style="border-bottom: 0;" id="item-da-lista">
           <p class="col" style="color: #000; font-size: 14px; font-weight: 600;">Categorias</p>
           <p class="col-3" style="color: #000; font-size: 14px; font-weight: 600;">Ocupação</p>
         </div>
-        <ul class="list-group list-group-flush d-flex flex-column" style="gap: 16px">
+        <ul class="list-group list-group-flush d-flex flex-column">
           <li class="list-group-item d-flex" id="item-da-lista">
             <p class="col" style="color: #333; font-size: 14px;">50m Borboleta</p>
             <p class="col-3" style="color: #333; font-size: 14px;">15/20</p>

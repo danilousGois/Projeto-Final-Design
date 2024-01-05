@@ -12,7 +12,7 @@ body{
     width: 198px;
     background-color: #F2F2F2;
 }
-#categorias-da-conta p{
+.card p{
     margin: 0;
 }
 #item-da-lista{
